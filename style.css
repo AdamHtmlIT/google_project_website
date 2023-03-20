@@ -1,7 +1,18 @@
 #SearchInput {
-    box-shadow: 2px 2px #888888;
+    box-shadow: 2px 2px hsl(0, 0%, 53%);
+    position:fixed; 
+    top: 25px; 
+    left: 210px;
+    width: 200px; 
+    height: 50px;
+    border-radius: 15px;
 }
 
 div {
     width: 200px;
+}
+
+.all {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
 }
