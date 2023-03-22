@@ -1,3 +1,7 @@
+body {
+    height: 100%;
+}
+
 #SearchInput {
     box-shadow: 2px 2px hsl(0, 0%, 53%);
     position:fixed; 
@@ -15,4 +19,88 @@ div {
 .all {
     display: inline;
     font-family: 'Roboto', sans-serif;
+}
+
+.rects {
+    position: absolute;
+    width: 12%;
+    height: 30%;
+    top: 17%;
+    background-color: white;
+    border: 0.1px solid gray;
+}
+
+.recty {
+    width: 12%;
+    height: 20%;
+}
+
+#c1 {
+    position: absolute;
+    height: 17%;
+    width: 17%;
+    border-radius: 50%;
+}
+
+#c2 {
+    position: absolute;
+    height: 17%;
+    width: 17%;
+    border-radius: 50%;
+    top: 39%;
+}
+
+#c3 {
+    position: absolute;
+    height: 17%;
+    width: 17%;
+    border-radius: 50%;
+    top: 20%;
+}
+
+#c4 {
+    position: absolute;
+    height: 17%;
+    width: 17%;
+    border-radius: 50%;
+    top: 58%;
+}
+
+#c5 {
+    position: absolute;
+    height: 17%;
+    width: 17%;
+    border-radius: 50%;
+    top: 76%;
+}
+
+.text1 {
+    top: 0%;
+    font-size: 14px;
+}
+
+.text2 {
+    top: 12%;
+    font-size: 10px;
+}
+
+.text3 {
+    top: 24%;
+    font-size: 10px;
+}
+
+.text4 {
+    top: 36%;
+    font-size: 10px;
+}
+
+.text5 {
+    top: 48%;
+    font-size: 10px;
+}
+
+.texts {
+    position: absolute;
+    left: 3%;
+    top: 17%;
 }
